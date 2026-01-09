@@ -54,7 +54,7 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
         http
-            //  ENABLE CORS AT SECURITY LEVEL
+            //  ENABLE CORS
             .cors(Customizer.withDefaults())
 
             .csrf(csrf -> csrf.disable())
@@ -66,7 +66,7 @@ public class SecurityConfig {
                 //  allow ALL preflight requests
                 .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
 
-                // everything else needs JWT
+                
                 .anyRequest().authenticated()
             )
 
