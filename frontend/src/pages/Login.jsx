@@ -10,7 +10,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await login(username, password);
-    navigate("/students"); // 🔥 FIX
+    navigate("/students");
   };
 
   return (
