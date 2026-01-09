@@ -2,7 +2,6 @@
 
 A full-stack Student Management System built using Spring Boot (REST API) and React (Vite) with JWT authentication, role-based access, and pagination.
 
-This project follows industry-standard architecture and is suitable for college submission, interviews, and deployment.
 
 ## Features
 ### 🔐 Authentication & Security
