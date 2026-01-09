@@ -67,10 +67,6 @@ This project follows industry-standard architecture and is suitable for college 
 
   - JavaScript (ES6)
 
-### 📂 Project Structure
-  <img width="426" height="711" alt="Screenshot 2026-01-09 173225" src="https://github.com/user-attachments/assets/79370388-6b27-482b-986c-f6768b2437a5" />
-
-
 ### 🔁 Application Flow
 
 - User logs in via React UI
@@ -101,27 +97,40 @@ POST /api/auth/login → Login & get JWT
 - DELETE /api/students/{id}
 
 ### 📸 Screenshots
-####  Login Page
-<img src="https://github.com/user-attachments/assets/ea64befe-fa87-49d9-8386-a623992e1df4" />
+## Login Page
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/48efa2ff-c64f-4bb4-a3b3-ae837c0ab7a6" />
 
-####  Student List 
-<img src="https://github.com/user-attachments/assets/21cb97ca-94ae-4dc0-88f6-127aaae5af8b" />
+---
 
-####  Add Student
-<img src="https://github.com/user-attachments/assets/51793033-02f6-4f88-ab24-7656561789ce" />
+##  Student List 
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/c1b1a72e-138b-4d9e-bc3a-9fa81951561b" />
 
-####  Edit Student
-<img src="https://github.com/user-attachments/assets/59047b14-9cb5-4e5d-880f-5bca6e278212" />
+---
+
+##  Add Student
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/a7472947-b2c3-4ff2-9d82-993059bfdcdc" />
+
+-----
+
+
+##  Edit Student
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/70ef062c-35e3-45e4-9fa7-bdc3ab9768d3" />
+
 
 ------
 
+## 🔑 Default Login Credentials
+Username: admin
+
+Password: admin
+
 #### Backend Runs on:
 
-👉 http://localhost:8080
+ http://localhost:8080
 
 #### Frontend Runs on:
 
-👉 http://localhost:5173
+ http://localhost:5173
 
 ```java
 cd frontend
@@ -131,7 +140,4 @@ npm run dev
 
 
 
-## 🔑 Default Login Credentials
-Username: admin
 
-Password: admin
